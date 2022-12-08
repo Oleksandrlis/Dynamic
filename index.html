@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dropdown">
+      <button id="butt">Hide Filters</button>
+      <div class="selected">
+        <select id="sel">
+          <option value="3">all</option>
+          <option value="1">office</option>
+          <option value="2">warehouses</option>
+        </select>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv2y6PCZCqYmHt0zIAvygLO5SiZfnGM7k&callback=initMap"
+    ></script>
+  </body>
+</html>
